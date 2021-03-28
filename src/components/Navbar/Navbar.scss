@@ -1,7 +1,7 @@
 /* Navbar */
 
 .navbar {
-//   background-color: lightgreen; 
+  //   background-color: lightgreen;
   width: 100%;
   height: 70px;
   display: flex;
@@ -20,7 +20,7 @@
     align-items: center;
 
     img {
-    //   background-color: #fff;
+      //   background-color: #fff;
       height: 40px;
       width: auto;
     }
@@ -28,7 +28,7 @@
 
   //Navbar-Links
   .navbar__links {
-    // background-color: lightseagreen; 
+    // background-color: lightseagreen;
     height: 50px;
     width: 70%;
 
@@ -37,7 +37,7 @@
     align-items: center;
 
     ul {
-    //   background-color: lightblue;
+      //   background-color: lightblue;
       width: 90%;
       height: 90%;
       list-style: none;
@@ -50,14 +50,20 @@
 
       li {
         // background-color: lightgreen;
-        color: grey;
         cursor: pointer;
         font-size: 18px;
-        transition: color 0.5s ease-in-out;
+       
 
-        &:hover {
-          color: orange;
+        .navbar__links__link {
+          text-decoration: none;
+          color: grey;
+          transition: color 0.5s ease-in-out;
+          &:hover {
+            color: orange;
+          }
         }
+
+        
       }
     }
   }
